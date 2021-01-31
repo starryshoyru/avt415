@@ -1,0 +1,17 @@
+#container {
+  width: 1200px;
+}
+.column {
+  width:25%;
+  float: left;
+}
+
+/* media queries */
+@media screen and (max-width: 900px) {
+  .column {
+    width: 100%;
+  }
+  header {
+    width: 90vw;
+  }
+}
