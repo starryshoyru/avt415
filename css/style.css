@@ -12,6 +12,7 @@
 }
 
 body {
+  margin: 30px;
   font-family: arial;
   color: white;
   background-color: black;
@@ -38,9 +39,5 @@ a {
 
   img {
     width: 80%;
-  }
-
-  header {
-    width: 90vw;
   }
 }
