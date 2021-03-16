@@ -7,9 +7,7 @@
   float: left;
 }
 
-.content {
-  width: 70%;
-}
+.content {width: 70%;}
 
 body {
   margin: 30px;
@@ -28,16 +26,7 @@ a {
   #container {
     width: 100%;
   }
-
-  .column {
-    width: 100%;
-  }
-
-  .content {
-    width: 80%;
-  }
-
-  img {
-    width: 80%;
-  }
+  .column {width: 100%;}
+  .content {width: 80%;}
+  img {width: 80%;}
 }
