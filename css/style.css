@@ -1,11 +1,14 @@
 #container {
   width: 1200px;
-
 }
 
 .column {
-  width:25%;
+  width: 25%;
   float: left;
+}
+
+.content {
+  width: 70%;
 }
 
 body {
@@ -21,12 +24,20 @@ a {
 
 /* media queries */
 @media screen and (max-width: 900px) {
+  #container {
+    width: 100%;
+  }
+
   .column {
     width: 100%;
   }
 
+  .content {
+    width: 80%;
+  }
+
   img {
-    width: 35%;
+    width: 80%;
   }
 
   header {
