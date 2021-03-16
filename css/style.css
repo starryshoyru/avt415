@@ -1,9 +1,22 @@
 #container {
   width: 1200px;
+
 }
+
 .column {
   width:25%;
   float: left;
+}
+
+body {
+  font-family: arial;
+  color: white;
+  background-color: black;
+}
+
+a {
+  color: #C1F0F6;
+  text-decoration: none;
 }
 
 /* media queries */
