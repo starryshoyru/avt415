@@ -26,6 +26,8 @@ a {
   #container {
     width: 100%;
   }
-  .column {width: 100%;}
+  .column {
+    width: 100%;
+    float: left;}
   .content {width: 80%;}
 }
